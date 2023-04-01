@@ -1,0 +1,12 @@
+<p>
+How You Doin'?
+</p>
+<script>
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('this is the eventual value the promise will return');
+  }, 300);
+});
+
+console.log(myPromise);
+</script>
